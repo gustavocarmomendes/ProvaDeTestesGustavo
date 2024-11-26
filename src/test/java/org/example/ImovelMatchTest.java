@@ -13,7 +13,7 @@ public class ImovelMatchTest {
 		double valor1 = 87.5;
 		double valor2 = 8745.5;
 
-		Assertions.assertEquals(10, imovel.MostrarMaiorValor(valor1, valor2), 0.001);
+		Assertions.assertEquals(8745.5, imovel.MostrarMaiorValor(valor1, valor2), 0.001);
 		
 	}
 	
